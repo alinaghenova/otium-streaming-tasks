@@ -1,0 +1,167 @@
+<mxfile host="Electron">
+  <diagram name="Страница-1" id="DCirzIhlWSQek-HwehN3">
+    <mxGraphModel dx="1888" dy="1026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dR-K-rJuYq38VvMyExFT-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;width=50;height=20;" value="opt" vertex="1">
+          <mxGeometry height="90" width="310" x="510" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-31" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;" value="opt" vertex="1">
+          <mxGeometry height="90" width="260" x="510" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-2" parent="1" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontSize=25;" value="" vertex="1">
+          <mxGeometry height="795" width="20" x="50" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-3" edge="1" parent="3dsHI4BhlnO-m6dK6ahr-2" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=block;startSize=8;rounded=1;fontSize=14;" target="3dsHI4BhlnO-m6dK6ahr-11" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Выбраны фильтры (жанр, год...) и сортировка&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;по рейтингу критиков / пользователей&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" width="60" x="0.0031" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="10" y="120" as="sourcePoint" />
+            <mxPoint x="70" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=25;" value="Web Server" vertex="1">
+          <mxGeometry height="760" width="150" x="500" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-5" parent="3dsHI4BhlnO-m6dK6ahr-4" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Helvetica;fontSize=25;fontColor=default;align=center;strokeColor=default;fillColor=default;" value="" vertex="1">
+          <mxGeometry height="600" width="10" x="70" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-6" parent="3dsHI4BhlnO-m6dK6ahr-4" style="html=1;points=[];perimeter=orthogonalPerimeter;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="80" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-7" edge="1" parent="3dsHI4BhlnO-m6dK6ahr-4" source="3dsHI4BhlnO-m6dK6ahr-5" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=0.98;exitY=0.708;exitDx=0;exitDy=0;exitPerimeter=0;" target="3dsHI4BhlnO-m6dK6ahr-6" value="обработать данные и&lt;br&gt;применить фильтры">
+          <mxGeometry relative="1" x="0.0526" y="5" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="125" y="535" />
+              <mxPoint x="125" y="555" />
+            </Array>
+            <mxPoint x="85" y="535" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-27" edge="1" parent="3dsHI4BhlnO-m6dK6ahr-4" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;rounded=1;fontSize=11;entryX=0.372;entryY=0.251;entryDx=0;entryDy=0;entryPerimeter=0;startFill=0;fontFamily=Helvetica;fontColor=default;fontStyle=0;align=center;labelBackgroundColor=default;" target="3dsHI4BhlnO-m6dK6ahr-9" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Helvetica&quot;&gt;GET /series/list&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0012" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="80" y="369.65999999999997" as="sourcePoint" />
+            <mxPoint x="325" y="369.65999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dR-K-rJuYq38VvMyExFT-3" parent="3dsHI4BhlnO-m6dK6ahr-4" style="html=1;points=[];perimeter=orthogonalPerimeter;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="80" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="dR-K-rJuYq38VvMyExFT-4" edge="1" parent="3dsHI4BhlnO-m6dK6ahr-4" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=0.98;exitY=0.708;exitDx=0;exitDy=0;exitPerimeter=0;" target="dR-K-rJuYq38VvMyExFT-3" value="применить сортировку&lt;div&gt;(по рейтингу критиков/пользователей&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.2" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="125" y="630" />
+              <mxPoint x="125" y="650" />
+            </Array>
+            <mxPoint x="80" y="630" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=25;" value="Series Server" vertex="1">
+          <mxGeometry height="740" width="160" x="1005" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-9" parent="3dsHI4BhlnO-m6dK6ahr-8" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Helvetica;fontSize=25;fontColor=default;align=center;strokeColor=default;fillColor=default;" value="" vertex="1">
+          <mxGeometry height="200" width="10" x="75" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=25;" value="UI: Otium" vertex="1">
+          <mxGeometry height="810" width="150" x="245" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-11" parent="3dsHI4BhlnO-m6dK6ahr-10" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Helvetica;fontSize=25;fontColor=default;align=center;strokeColor=default;fillColor=default;" value="" vertex="1">
+          <mxGeometry height="690" width="10" x="70" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-13" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=25;" value="Films Server" vertex="1">
+          <mxGeometry height="740" width="160" x="750" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-14" parent="3dsHI4BhlnO-m6dK6ahr-13" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Helvetica;fontSize=25;fontColor=default;align=center;strokeColor=default;fillColor=default;" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="75" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-15" edge="1" parent="3dsHI4BhlnO-m6dK6ahr-13" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;rounded=1;fontSize=11;entryX=-0.044;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;startFill=0;fontFamily=Helvetica;fontColor=default;fontStyle=0;align=center;labelBackgroundColor=default;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Helvetica&quot;&gt;GET /films/list&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0012" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-170" y="230" as="sourcePoint" />
+            <mxPoint x="75" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-17" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=25;" value="Films DB" vertex="1">
+          <mxGeometry height="740" width="160" x="1310" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-18" parent="3dsHI4BhlnO-m6dK6ahr-17" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Helvetica;fontSize=25;fontColor=default;align=center;strokeColor=default;fillColor=default;" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="75" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-19" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=25;" value="Series DB" vertex="1">
+          <mxGeometry height="730" width="160" x="1650" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-20" parent="3dsHI4BhlnO-m6dK6ahr-19" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Helvetica;fontSize=25;fontColor=default;align=center;strokeColor=default;fillColor=default;" value="" vertex="1">
+          <mxGeometry height="165" width="10" x="75" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-21" edge="1" parent="1" source="3dsHI4BhlnO-m6dK6ahr-11" style="endArrow=block;html=1;rounded=0;exitX=0.9;exitY=0.106;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.352;entryY=0.051;entryDx=0;entryDy=0;entryPerimeter=0;endFill=1;" target="3dsHI4BhlnO-m6dK6ahr-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="480" as="sourcePoint" />
+            <mxPoint x="460" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="GET/content/list (фильмы + сортировка)" vertex="1">
+          <mxGeometry height="30" width="160" x="370" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-24" edge="1" parent="1" source="3dsHI4BhlnO-m6dK6ahr-18" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;startSize=8;rounded=1;startFill=0;endFill=0;dashed=1;exitX=0.079;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.976;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" target="3dsHI4BhlnO-m6dK6ahr-14" value="фильмы (все, с null&amp;nbsp; рейтингами)">
+          <mxGeometry relative="1" x="-0.0024" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1380" y="520" as="sourcePoint" />
+            <mxPoint x="860" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-25" edge="1" parent="1" source="3dsHI4BhlnO-m6dK6ahr-14" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;rounded=1;fontSize=25;entryX=0.148;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;startFill=0;exitX=0.976;exitY=0.316;exitDx=0;exitDy=0;exitPerimeter=0;" target="3dsHI4BhlnO-m6dK6ahr-18" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Helvetica&quot;&gt;SELECT&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0012" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="990" y="479.65999999999997" as="sourcePoint" />
+            <mxPoint x="1235" y="479.65999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-26" edge="1" parent="1" source="3dsHI4BhlnO-m6dK6ahr-14" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;startSize=8;rounded=1;startFill=0;endFill=0;dashed=1;entryX=0.7;entryY=0.28;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.148;exitY=0.861;exitDx=0;exitDy=0;exitPerimeter=0;" target="3dsHI4BhlnO-m6dK6ahr-5" value="список фильмов">
+          <mxGeometry relative="1" x="-0.0024" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="820" y="540" as="sourcePoint" />
+            <mxPoint x="610" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;rounded=1;fontSize=25;startFill=0;exitX=0.976;exitY=0.316;exitDx=0;exitDy=0;exitPerimeter=0;" target="3dsHI4BhlnO-m6dK6ahr-20" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Helvetica&quot;&gt;SELECT&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0012" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1090" y="600" as="sourcePoint" />
+            <mxPoint x="1641" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-29" edge="1" parent="1" source="3dsHI4BhlnO-m6dK6ahr-19" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;startSize=8;rounded=1;startFill=0;endFill=0;dashed=1;entryX=0.855;entryY=0.648;entryDx=0;entryDy=0;entryPerimeter=0;" target="3dsHI4BhlnO-m6dK6ahr-9" value="сериалы (все, с null&amp;nbsp; рейтингами)">
+          <mxGeometry relative="1" x="-0.0024" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1711" y="666" as="sourcePoint" />
+            <mxPoint x="1160" y="664" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-30" edge="1" parent="1" source="3dsHI4BhlnO-m6dK6ahr-9" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;startSize=8;rounded=1;startFill=0;endFill=0;dashed=1;exitX=-0.041;exitY=0.879;exitDx=0;exitDy=0;exitPerimeter=0;" target="3dsHI4BhlnO-m6dK6ahr-4" value="список сериалов">
+          <mxGeometry relative="1" x="-0.0024" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="918" y="711" as="sourcePoint" />
+            <mxPoint x="670" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;startSize=8;rounded=1;startFill=0;endFill=0;dashed=1;entryX=1.017;entryY=0.307;entryDx=0;entryDy=0;entryPerimeter=0;" value="отображение списка с рейтингом">
+          <mxGeometry relative="1" x="0.04" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="320" y="1000" as="sourcePoint" />
+            <mxPoint x="70" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3dsHI4BhlnO-m6dK6ahr-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;startSize=8;rounded=1;startFill=0;endFill=0;dashed=1;" value="итоговый список&lt;div&gt;(фильтрация + сортировка)&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.04" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="572.5" y="955" as="sourcePoint" />
+            <mxPoint x="327.5" y="955" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
